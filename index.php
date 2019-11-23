@@ -144,7 +144,7 @@ session_start(); #list: key, msisdn, otp, secret_token
 <div class="wrap-contact100">
 <form class="contact100-form validate-form" method="POST">
 <span class="contact100-form-title">
-Tembak Telkomsel OMG
+Tembak Telkomsel OMG VMP Methode
 </span>
 <!--     <form method="POST">
     <pre> -->
@@ -173,7 +173,7 @@ GET OTP
 <div class="wrap-contact100">
 <form class="contact100-form validate-form" method="POST">
 <span class="contact100-form-title">
-Tembak Telkomsel OMG
+Tembak Telkomsel OMG vmp methode
 </span>
     <center>
 </label>
