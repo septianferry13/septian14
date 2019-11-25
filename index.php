@@ -218,22 +218,26 @@ Login
 Key:&nbsp;<?= $_SESSION['key']."<br>" ?>
 Msisdn:&nbsp;<?= $_SESSION['msisdn']."<br>" ?>
 OTP:&nbsp;<?= $_SESSION['otp']."<br>" ?>
-<input type="submit" name="do" value="LOGOUT"></input>
 <hr>
 <h3><u>Buy Package</u></h3>
 PILIH&nbsp;PAKET:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="pkgid" onchange="if (this.value=='1'){this.form['pkgidman'].style.visibility='visible'}else {this.form['pkgidman'].style.visibility='hidden'};" style="width: 50%;">
+  <option value="00016030">Maxtream 10gb 10k</option>
   <option value="00009382">OMG! 1GB 2hari Rp 10</option>
+  <option value="00010654">Maxtream 1GB - Rp10 2hr</option>
   <option value="00007333">OMG! 30gb 30k</option>
   <option value="00016038">OMG! 5gb 10k</option>
   <option value="00016199">AddMax 30gb 30k 30hr</option>
   <option value="00015185">Gigamax 6gb 25k 30hr</option>
   <option value="00016030">Maxtream 10gb 10k</option>
   <option value="00016036">MaxKlik Film 5gb 10k</option>
+  <option value="00020943">Flash 4G 50GB - Rp50k 7hr</option>
+  <option value="00015893">Flash 17GB - Rp80K</option>
   <option value="1">Manual ID</option>
 </select><br>
 PKGID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="pkgidman"  style="width: 50%; visibility:hidden;"></input><br>
 TRANSACTIONID:<input type="text" name="transactionid" style="width: 50%;" value="A301180826192021277131740"></input><br>
-<input type="submit" name="do" value="BUY_PKG"></input><br><br>
+    <button class="btn btn-primary" name="do" value="BUY_PKG" type="submit">Buy</button>
+    <button class="btn btn-danger" type="submit" name="do" value="LOGOUT">Logout</button>
 <?php if(!empty($ress)) echo $ress ?>
 <hr>
 </fieldset>
