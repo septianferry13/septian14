@@ -192,13 +192,13 @@ Tembak Telkomsel OMG vmp methode
 <span class="focus-input100"></span>
 </div>
 <div class="container-contact100-form-btn">
-<button class="contact100-form-btn" name="do" value="CHANGE" type="submit">
-    <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
-Change
-</span></button>&nbsp;&nbsp;
-    <button class="contact100-form-btn" name="do" value="LOGIN" type="submit">
+<button class="btn btn-primary" name="do" value="LOGIN" type="submit">
     <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
 Login
+</span></button>&nbsp;&nbsp;
+<button class="btn btn-danger" name="do" value="CHANGE" type="submit">
+    <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+Change
 </span></button>
 </div>
 <!-- <input type="submit" name="do" value="LOGIN"></input> -->
@@ -221,10 +221,9 @@ OTP:&nbsp;<?= $_SESSION['otp']."<br>" ?>
 <hr>
 <h3><u>Buy Package</u></h3>
 PILIH&nbsp;PAKET:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="pkgid" onchange="if (this.value=='1'){this.form['pkgidman'].style.visibility='visible'}else {this.form['pkgidman'].style.visibility='hidden'};" style="width: 50%;">
-  <option value="00016030">Maxtream 10gb 10k</option>
   <option value="00009382">OMG! 1GB 2hari Rp 10</option>
   <option value="00010654">Maxtream 1GB - Rp10 2hr</option>
-  <option value="00007333">OMG! 30gb 30k</option>
+  <option value="00007333">Maxtream 30gb 30k</option>
   <option value="00016038">OMG! 5gb 10k</option>
   <option value="00016199">AddMax 30gb 30k 30hr</option>
   <option value="00015185">Gigamax 6gb 25k 30hr</option>
