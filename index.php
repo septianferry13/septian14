@@ -219,7 +219,11 @@ Key:&nbsp;<?= $_SESSION['key']."<br>" ?>
 Msisdn:&nbsp;<?= $_SESSION['msisdn']."<br>" ?>
 OTP:&nbsp;<?= $_SESSION['otp']."<br>" ?>
 <hr>
-<h3><u>Buy Package</u></h3>
+    <center>
+            <div class="table-responsive">
+            <div class="container-contact100">
+            <div class="wrap-contact100">
+            <span class="contact100-form-title">BELI PAKET</span>
 PILIH&nbsp;PAKET:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="pkgid" onchange="if (this.value=='1'){this.form['pkgidman'].style.visibility='visible'}else {this.form['pkgidman'].style.visibility='hidden'};" style="width: 50%;">
   <option value="00009382">OMG! 1GB 2hari Rp 10</option>
   <option value="00010654">Maxtream 1GB - Rp10 2hr</option>
