@@ -232,6 +232,7 @@ PILIH&nbsp;PAKET:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select n
   <option value="00016036">OMG KlikFilm 5gb - 10k 30hr</option>
   <option value="00009382">OMG! 1GB - Rp10 2hr</option>
   <option value="00010654">Maxtream 1GB - Rp10 2hr</option>
+  <option value="00021308">Maxtream 1GB - Rp10 30hr</option>
   <option value="00016030">Maxtream 10gb - 10k 30hr</option>
   <option value="00007333">Maxtream 30gb - 30k</option>
   <option value="00016199">AddMax 30gb - 30k 30hr</option>
