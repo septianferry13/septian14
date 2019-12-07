@@ -144,7 +144,7 @@ session_start(); #list: key, msisdn, otp, secret_token
 <div class="wrap-contact100">
 <form class="contact100-form validate-form" method="POST">
 <span class="contact100-form-title">
-Tembak Telkomsel OMG VMP Methode
+Tembak Telkomsel OMG ©SeptianFerry
 </span>
 <!--     <form method="POST">
     <pre> -->
@@ -173,7 +173,7 @@ GET OTP
 <div class="wrap-contact100">
 <form class="contact100-form validate-form" method="POST">
 <span class="contact100-form-title">
-Tembak Telkomsel OMG vmp methode
+Tembak Telkomsel OMG ©SeptianFerry
 </span>
 <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="5"><i class="mdi mdi-chevron-double-right"></i> 
 GAGAL MENDAPATKAN OTP ? GET OTP V.2 <a href="https://vip-reseller.co.id/telkomsel/otpv2" target="_blank">KLIK DISINI</a></marquee><br><br>
