@@ -162,6 +162,8 @@ GET OTP
 <?php if(!empty($err)) echo $err ?> 
 <!--     </pre> -->
 <br>
+<br>
+<br>
    <center>
     <div class="container">
             Jumlah pengguna hari ini
@@ -169,7 +171,7 @@ GET OTP
             include ("counter.php");
             echo "<p style='color:red; font-weight: bold;'> $kunjungan[0] </p>";
             ?>
-            User
+            USER
 </form>
 </div>
 </div>
