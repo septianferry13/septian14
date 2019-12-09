@@ -152,6 +152,7 @@ Tembak Telkomsel OMG ©SeptianFerry
 <input class="input100" type="text" name="msisdn" placeholder="Nomer Hp 628x">
 <span class="focus-input100"></span>
 </div>
+    <center>
 <button class="contact100-form-btn" name="do" value="GETOTP" type="submit">
     <span>
 <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
