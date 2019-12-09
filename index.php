@@ -162,8 +162,6 @@ GET OTP
 <?php if(!empty($err)) echo $err ?> 
 <!--     </pre> -->
 <br>
-<br>
-<br>
    <center>
     <div class="container">
             Jumlah pengguna hari ini
