@@ -236,18 +236,18 @@ OTP:&nbsp;<?= $_SESSION['otp']."<br>" ?>
             <div class="wrap-contact100">
             <span class="contact100-form-title">BELI PAKET</span>
 PILIH&nbsp;PAKET:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="pkgid" onchange="if (this.value=='1'){this.form['pkgidman'].style.visibility='visible'}else {this.form['pkgidman'].style.visibility='hidden'};" style="width: 50%;">
-  <option value="00016090">OMG Iflix! 5gb - 10k 30hr</option>
-  <option value="00016038">OMG VIU! 5gb - 10k 30hr</option>
-  <option value="00016036">OMG KlikFilm 5gb - 10k 30hr</option>
-  <option value="00009382">OMG! 1GB - Rp10 2hr</option>
-  <option value="00010654">Maxtream 1GB - Rp10 2hr</option>
-  <option value="00021308">Maxtream 1GB - Rp10 30hr</option>
-  <option value="00016030">Maxtream 10gb - 10k 30hr</option>
-  <option value="00007333">Maxtream 30gb - 30k</option>
-  <option value="00016199">AddMax 30gb - 30k 30hr</option>
-  <option value="00015185">Gigamax 6gb - 25k 30hr</option>
-  <option value="00020943">Flash 50GB - Rp50k 7hr</option>
-  <option value="00015893">Flash 17GB - Rp80K 30hr</option>
+  <option value="00016090">OMG [Iflix] 5gb Harga : Rp. 10.000 / 30 Hari</option>
+  <option value="00016038">OMG [VIU] 5gb Harga : Rp. 10.000 / 30 Hari</option>
+  <option value="00016036">OMG [KlikFilm] 5gb Harga : Rp. 10.000 / 30 Hari</option>
+  <option value="00009382">OMG 1GB Harga : Rp. 10 / 2 Hari</option>
+  <option value="00010654">Maxtream 1GB Harga : Rp. 10 / 2 Hari</option>
+  <option value="00021308">Maxtream 1GB Harga : Rp. 10 / 30 Hari</option>
+  <option value="00016030">Maxtream 10gb Harga : Rp.  10.000 / 30 Hari</option>
+  <option value="00007333">Maxtream 30gb Harga : Rp. 30.000 / 30 Hari</option>
+  <option value="00016199">AddMax 30gb Harga : Rp.  30.000 / 30 Hari</option>
+  <option value="00015185">Gigamax 6gb Harga : Rp. 25.000 / 30 Hari</option>
+  <option value="00020943">Flash 50GB Harga : Rp. 50.000 / 7 Hari</option>
+  <option value="00015893">Flash 17GB Harga : Rp. 80.000 / 30 Hari</option>
   <option value="1">Manual ID</option>
 </select><br>
 PKGID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="pkgidman"  style="width: 50%; visibility:hidden;"></input><br>
