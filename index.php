@@ -176,7 +176,7 @@ GET OTP
 Tembak Telkomsel OMG ©SeptianFerry
 </span>
 <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="5"><i class="mdi mdi-chevron-double-right"></i> 
-GAGAL MENDAPATKAN OTP ? GET OTP V.2 <a href="https://vip-reseller.co.id/telkomsel/otpv2" target="_blank">KLIK DISINI</a></marquee><br><br>
+  MASUKIN OTPNYA JANGAN KELAMAAN YA BANGSAAAT gagal mendapatkan otp ? GET OTP V.2 <a href="https://vip-reseller.co.id/telkomsel/otpv2" target="_blank">KLIK DISINI</a></marquee><br><br>
     <center>
 </label>
 <label class="radio-container m-r-45">VMP
