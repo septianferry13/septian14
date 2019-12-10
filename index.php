@@ -181,7 +181,7 @@ function counter(){
  
 counter(); 
  
-echo 'Total pengunjung: '.file_get_contents($filename); 
+echo 'Total Pengguna : '.file_get_contents($filename); 
 ?>
             USER
 </form>
