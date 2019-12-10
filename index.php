@@ -164,11 +164,25 @@ GET OTP
 <!--     </pre> -->
    <center>
     <div class="container">
-            Jumlah pengguna hari ini
-            <?php 
-            include ("counter.php");
-            echo "<p style='color:red; font-weight: bold;'> $kunjungan[0] </p>";
-            ?>
+            <?php
+$filename = 'counter.txt';
+ 
+function counter(){  
+ global $filename; 
+ 
+ if(file_exists($filename)){  
+  $value = file_get_contents($filename); 
+ }else{  
+  $value = 0;  
+ }
+ 
+ file_put_contents($filename, ++$value);  
+}
+ 
+counter(); 
+ 
+echo 'Total pengunjung: '.file_get_contents($filename); 
+?>
             USER
 </form>
 </div>
@@ -236,6 +250,7 @@ OTP:&nbsp;<?= $_SESSION['otp']."<br>" ?>
             <div class="wrap-contact100">
             <span class="contact100-form-title">BELI PAKET</span>
 PILIH&nbsp;PAKET:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="pkgid" onchange="if (this.value=='1'){this.form['pkgidman'].style.visibility='visible'}else {this.form['pkgidman'].style.visibility='hidden'};" style="width: 50%;">
+  <option value="0">--Pilih Paket--</option>
   <option value="00016038">OMG [VIU] 5gb Harga : Rp. 10.000 / 30 Hari</option>
   <option value="00016036">OMG [KlikFilm] 5gb Harga : Rp. 10.000 / 30 Hari</option>
   <option value="00009382">OMG 1GB Harga : Rp. 10 / 2 Hari</option>
