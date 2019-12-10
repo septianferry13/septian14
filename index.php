@@ -89,7 +89,7 @@ session_start(); #list: key, msisdn, otp, secret_token
                 $tipe   = $_POST['tipe'];
                 $otp    = $_POST['otp'];
                 
-                if ($key != privatekey){die("Error: wrong key");}
+                //if ($key != privatekey){die("Error: wrong key");}
                 $tsel = new MyTsel();
                 $login = $tsel->login($msisdn, $otp, $tipe);
                 
