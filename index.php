@@ -104,7 +104,7 @@ session_start(); #list: key, msisdn, otp, secret_token
                     
                 } else {
                     echo $login;
-                    $err = $login;
+                    $err = "PKGID: <b>".$pkgid."</b><br>Result: ".$tsel->buy_pkg($secret_token, $pkgid, $transactionid, $tipe);
                 }
 
                 
