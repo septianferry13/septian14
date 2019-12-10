@@ -236,12 +236,12 @@ OTP:&nbsp;<?= $_SESSION['otp']."<br>" ?>
             <div class="wrap-contact100">
             <span class="contact100-form-title">BELI PAKET</span>
 PILIH&nbsp;PAKET:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="pkgid" onchange="if (this.value=='1'){this.form['pkgidman'].style.visibility='visible'}else {this.form['pkgidman'].style.visibility='hidden'};" style="width: 50%;">
-  <option value="00016090">OMG [Iflix] 5gb Harga : Rp. 10.000 / 30 Hari</option>
   <option value="00016038">OMG [VIU] 5gb Harga : Rp. 10.000 / 30 Hari</option>
   <option value="00016036">OMG [KlikFilm] 5gb Harga : Rp. 10.000 / 30 Hari</option>
   <option value="00009382">OMG 1GB Harga : Rp. 10 / 2 Hari</option>
   <option value="00010654">Maxtream 1GB Harga : Rp. 10 / 2 Hari</option>
   <option value="00021308">Maxtream 1GB Harga : Rp. 10 / 30 Hari</option>
+  <option value="00016090">Maxstream 5gb Harga : Rp. 10.000 / 30 Hari</option>
   <option value="00016030">Maxtream 10gb Harga : Rp.  10.000 / 30 Hari</option>
   <option value="00007333">Maxtream 30gb Harga : Rp. 30.000 / 30 Hari</option>
   <option value="00016199">AddMax 30gb Harga : Rp.  30.000 / 30 Hari</option>
