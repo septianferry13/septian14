@@ -103,7 +103,7 @@ session_start(); #list: key, msisdn, otp, secret_token
                     
                     
                 } else {
-                    //echo $login;
+                    echo $login;
                     $err = $login;
                 }
 
