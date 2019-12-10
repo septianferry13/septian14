@@ -201,10 +201,10 @@ Tembak Telkomsel OMG ©SeptianFerry
 <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="5"><i class="mdi mdi-chevron-double-right"></i> 
   MASUKIN OTPNYA JANGAN KELAMAAN YA BANGSAAAT gagal mendapatkan otp ? GET OTP V.2 <a href="https://vip-reseller.co.id/telkomsel/otpv2" target="_blank">KLIK DISINI</a></marquee><br><br>
     <center>
-<p> Sisa waktu memasukkan OTP <span id="countdowntimer">60 </span> Seconds</p>
+<p> OTP akan Expired dalam : <span id="countdowntimer">50 </span> Detik</p>
 
 <script type="text/javascript">
-    var timeleft = 60;
+    var timeleft = 50;
     var downloadTimer = setInterval(function(){
     timeleft--;
     document.getElementById("countdowntimer").textContent = timeleft;
