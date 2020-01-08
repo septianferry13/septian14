@@ -150,13 +150,9 @@ INI MUKA LU... MIRIP KAN ?
 <img src="anjing.jpg">
 <!--     <form method="POST">
     <pre> -->
-<div class="wrap-input100 validate-input" data-validate="Please enter your msisdn">
-<input class="input100" type="text" name="msisdn" placeholder="Nomer Hp 628x">
-<span class="focus-input100"></span>
 </div>
     <center>
 </div>
-<!-- <input type="submit" name="do" value="GETOTP"></input> -->
 <?php if(!empty($err)) echo $err ?> 
 <!--     </pre> -->
    <center>
