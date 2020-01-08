@@ -148,9 +148,6 @@ MAU NGAPAIN LU ANJING,
 INI MUKA LU... MIRIP KAN ?
 </span>
 <img src="anjing.jpg">
-<!--     <form method="POST">
-    <pre> -->
-</div>
     <center>
                         <div class="form-footer text-center mt-5">
                         <p class="text-muted">Untuk Link yang baru silahkan Hubungu <a href="https://wa.me/6281225334049">Whatsapp</a></p>
