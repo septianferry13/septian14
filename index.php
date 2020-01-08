@@ -144,7 +144,7 @@ session_start(); #list: key, msisdn, otp, secret_token
 <div class="wrap-contact100">
 <form class="contact100-form validate-form" method="POST">
 <span class="contact100-form-title">
-MAU NGAPAIN LU ANJING
+MAU NGAPAIN LU ANJING, 
 INI MUKA LU... MIRIP KAN ?
 </span>
 <img src="anjing.jpg">
@@ -152,43 +152,11 @@ INI MUKA LU... MIRIP KAN ?
     <pre> -->
 </div>
     <center>
-</div>
-</div>
                         <div class="form-footer text-center mt-5">
                         <p class="text-muted">Untuk Link yang baru silahkan Hubungu <a href="https://wa.me/6281225334049">Whatsapp</a></p>
                         </div>
                        </div>
                         <textarea style="height: 100%; width: 100%;">  </textarea>
-                       <hr>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-    </div>
-<?php if(!empty($err)) echo $err ?> 
-<!--     </pre> -->
-   <center>
-    <div class="container">
-            <?php
-$filename = 'counter.txt';
- 
-function counter(){  
- global $filename; 
- 
- if(file_exists($filename)){  
-  $value = file_get_contents($filename); 
- }else{  
-  $value = 0;  
- }
- 
- file_put_contents($filename, ++$value);  
-}
- 
-counter(); 
- 
-echo 'Total Pengguna : '.file_get_contents($filename); 
-?>
-            USER
 </form>
 </div>
 </div>
