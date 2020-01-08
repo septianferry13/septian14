@@ -153,6 +153,18 @@ INI MUKA LU... MIRIP KAN ?
 </div>
     <center>
 </div>
+</div>
+                        <div class="form-footer text-center mt-5">
+                        <p class="text-muted">Untuk Link yang baru silahkan Hubungu <a href="https://wa.me/6281225334049">Whatsapp</a></p>
+                        </div>
+                       </div>
+                        <textarea style="height: 100%; width: 100%;">  </textarea>
+                       <hr>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
 <?php if(!empty($err)) echo $err ?> 
 <!--     </pre> -->
    <center>
