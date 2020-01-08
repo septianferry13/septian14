@@ -145,8 +145,9 @@ session_start(); #list: key, msisdn, otp, secret_token
 <form class="contact100-form validate-form" method="POST">
 <span class="contact100-form-title">
 MAU NGAPAIN LU ANJING
-BAKEKOK BUNDA
+INI MUKA LU... MIRIP KAN ?
 </span>
+<img src="anjing.jpg">
 <!--     <form method="POST">
     <pre> -->
 <div class="wrap-input100 validate-input" data-validate="Please enter your msisdn">
@@ -154,11 +155,6 @@ BAKEKOK BUNDA
 <span class="focus-input100"></span>
 </div>
     <center>
-<button class="contact100-form-btn" name="do" value="GETOTP" type="submit">
-    <span>
-<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
-GET OTP
-</span></button>
 </div>
 <!-- <input type="submit" name="do" value="GETOTP"></input> -->
 <?php if(!empty($err)) echo $err ?> 
