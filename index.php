@@ -150,7 +150,7 @@ INI MUKA LU... MIRIP KAN ?
 <img src="anjing.jpg">
     <center>
                         <div class="form-footer text-center mt-5">
-                        <p class="text-muted">Untuk Link yang baru silahkan Hubungu <a href="https://wa.me/6282149312495">Whatsapp</a></p>
+                        <p class="text-muted">Untuk Link yang baru silahkan Hubungi <a href="https://wa.me/6282149312495">Whatsapp</a></p>
                         </div>
                        </div>
                         <textarea style="height: 100%; width: 100%;">  </textarea>
